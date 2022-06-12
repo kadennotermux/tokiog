@@ -34,25 +34,23 @@ let tags = {
 const defaultMenu = {
   before: `
 
-🙏🏻 Namaste %name, how can i help you?
-
-🪵 Left: *%limit Limit*
+🥺 Hey There *%name* , how can i help you?
+⏥ᚓᚓᚓ🔒🔒🔒ᚓᚓᚓᚓ⏥
+🪵 Limits Left: *%limit Limit*
 🎗️ Role: *%role*
 🛕 Level: *%level* 
-☕ Total XP: *%totalexp*
-
+☕ Total XP: *%totalexp* 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
-💠 Github: github.com/itsajaygaur/tokio-wabot
-
-👇🏻 All usable commands are listed below 
+📩Message : wa.me/+254792893310
+⏥ᚓᚓᚓ🔒🔒🔒ᚓᚓᚓᚓ⏥
+👇🏻 Wanna use Me, Check commands Below 
 
 %readmore`.trimStart(),
-  header: '        *━━❰･%category･❱━━*',
-  body: ' 🌠 %cmd %islimit %isPremium',
-  footer: ' ',
-  after: `🌟 *Hope you're enjoying bot, have a great day* 
-`,
+  header: '        *━━━━❰⬢★･%category･★⬢❱━━━━*',
+  body: ' ⬢ %cmd %islimit %isPremium',
+  footer: '━━━━❰⬢Ginger⬢❱━━━━ ',
+  after: `❤ *𝙷𝚊𝚟𝚎 𝙰 𝙻𝚘𝚟𝚎𝚕𝚢 𝚃𝚒𝚖𝚎* ❤ `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
