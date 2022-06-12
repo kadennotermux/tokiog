@@ -49,7 +49,7 @@ const defaultMenu = {
 %readmore`.trimStart(),
   header: '        *━━━━❰⬢★･%category･★⬢❱━━━━*',
   body: ' ⬢ %cmd %islimit %isPremium',
-  footer: '━━━━❰⬢Ginger⬢❱━━━━ ',
+  footer: '⏥ᚓᚓᚓ🔒🔒🔒ᚓᚓᚓᚓ⏥',
   after: `❤ *𝙷𝚊𝚟𝚎 𝙰 𝙻𝚘𝚟𝚎𝚕𝚢 𝚃𝚒𝚖𝚎* ❤ `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
